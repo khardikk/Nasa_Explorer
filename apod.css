@@ -21,7 +21,8 @@ body {
 
 h1{
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    font-size: 100px;
 }
 
 /* Pseudo-element for the blurred background */
@@ -48,3 +49,4 @@ body::before {
     min-height: 100vh;
     text-align: center;
 }
+

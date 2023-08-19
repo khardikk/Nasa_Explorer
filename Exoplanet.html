@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Exoplanet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="exoplanet.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-expand-lg border-bottom border-bottom-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">NASA EXPLORER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+            <a class="nav-link" href="APOD.html">APOD</a>
+            <a class="nav-link" href="MarsRover.html">Mars Rover Photos</a>
+            <a class="nav-link" href="Exoplanet.html">Exoplanet</a>
+            <a class="nav-link" href="Earth.html">Earth</a>
+          </div>
+        </div>
+        <button class="btn btn-light" type="button">Github Repo</button>
+      </div>
+    </nav>
+    <div class="container h-100">
+      <h1 class="display-1 fs-md-1 fs-lg-1">Exoplanet Exploration</h1>
+      <p class="fw-bold fs-3 fs-lg-6" style="margin-bottom: 50px;">Happy planet hunting!</p>
+      <div class="text-center">
+          <button class="btn btn-primary btn-lg" type="button" id="APOD">Get The Picture of the Day</button>
+      </div>
+
+  
+
+        <div id="element-container">
+            <h2 class="text-center mt-5">Title</h2>
+            <h4 class="text-center mt-5">Clicked on</h4>
+            <div class="text-center" id="img-div">
+              <img src="fallback-image.jpg" class="img-fluid" alt="">
+            </div>
+              <div class="bg-dark p-3 rounded">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#explaination" aria-expanded="false" aria-controls="explaination">
+                    Toggle Explanation
+                </button>
+                <div id="explaination" class="collapse mt-3">
+                    <p class="text-center mt-3">What is this?</p>
+                </div>
+          </div>
+          
+          </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

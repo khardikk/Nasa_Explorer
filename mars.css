@@ -1,6 +1,6 @@
 /* Apply a blurred background image */
 body {
-    background-image: url('mars.jpg');
+    background-image: url('img/mars.jpg');
     background-size: cover;
     color: white;
     background-position: center;

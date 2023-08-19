@@ -1,6 +1,6 @@
 /* Apply a blurred background image */
 body {
-    background-image: url('exoplanet.jpg');
+    background-image: url('img/exoplanet.jpg');
     background-size: cover;
     color: white;
     background-position: center;

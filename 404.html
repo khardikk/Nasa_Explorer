@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/comingsoon.jpg');
+            background-size: cover;
+            color: white;
+            background-position: center;
+            position: relative; /* Required for pseudo-element positioning */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: inherit;
+            background-size: cover;
+            background-position: inherit;
+            filter: blur(10px); /* Adjust the blur intensity as needed */
+            z-index: -1; /* Place the pseudo-element behind other content */
+}
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Under Construction</h1>
+        <p>Come back later!</p>
+        <a class="nav-link" href="APOD.html">Go to home page</a>
+    </div>
+</body>
+</html>
